@@ -3,7 +3,7 @@ import "./PomodoroTimer.css"
 
 
 function PomodoroTimer () {
-  const [timeLeft, setTimeLeft] = useState(5)
+  const [timeLeft, setTimeLeft] = useState(25 * 60)
   const [isRunning, setIsRunning] = useState(false)
   const [isWorkSession, setIsWorkSession] = useState(true)
 
