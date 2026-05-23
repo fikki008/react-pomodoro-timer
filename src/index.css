@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  background: repeating-linear-gradient( 135deg, #00002e 0px,
+  #0202b2 10px,
+  #363636 20px,
+  #8b8a8a 40px);
+}
+h1,h3,p{
+  margin: 0;
+}
